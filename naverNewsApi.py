@@ -3,8 +3,8 @@ import datetime
 import json
 from turtledemo.penrose import start
 
-client_id = "BwMHvFEybzQOOyZ7qgT1"  # 네이버에서 발급 받은 client-id
-client_secret = "kE2qceih0M"  # 네이버에서 발급 받은 client-secret
+client_id = ""  # 네이버에서 발급 받은 client-id
+client_secret = ""  # 네이버에서 발급 받은 client-secret
 
 jsonResult = []  # 변환된 검색 결과가 전부 저장될 리스트
 

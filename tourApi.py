@@ -7,7 +7,7 @@ import pandas as pd
 
 
 # url = 'http://openapi.tour.go.kr/openapi/service/EdrcntTourismStatsService/getEdrcntTourismStatsList'
-# params ={'serviceKey' : 'cTWUGiJR/GRNsWP1Zvpr6EfojgF2NzRo6pzKHUXZplHewa1M8A9dkuiqnqsbVFTvix8hc8GWw4abmLFx7YB5tA==', 'YM' : '201205', 'NAT_CD' : '130', 'ED_CD' : 'E' }
+# params ={'serviceKey' : '', 'YM' : '201205', 'NAT_CD' : '130', 'ED_CD' : 'E' }
 #
 # response = requests.get(url, params=params)
 # print(response.text)

@@ -26,7 +26,7 @@ def getRequestUrl(url):
 
 def getTourismStatsItem(yyyymm, nat_cd, ed_cd):  # 출입년월, 국가코드, 입국(E)/출국(D)
     url = 'http://openapi.tour.go.kr/openapi/service/EdrcntTourismStatsService/getEdrcntTourismStatsList'
-    parameters = "?_type=json&serviceKey=cTWUGiJR/GRNsWP1Zvpr6EfojgF2NzRo6pzKHUXZplHewa1M8A9dkuiqnqsbVFTvix8hc8GWw4abmLFx7YB5tA=="
+    parameters = "?_type=json&serviceKey="
     parameters = parameters + f"&YM={yyyymm}"
     parameters = parameters + f"&NAT_CD={nat_cd}"
     parameters = parameters + f"&ED_CD={ed_cd}"
